@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/vemu/.oh-my-zsh"
 
-ZSH_THEME="agnoster"
+ZSH_THEME="cobalt2"
 
 HIST_STAMPS="dd/mm/yyyy"
 
@@ -29,7 +29,7 @@ bindkey '^ ' autosuggest-accept
 # NOT SHOWING NAME AND COMPUTERNAME
 prompt_context() {}
 # ALIASES
-alias gp="git pull origin master"
+alias gp="git pull"
 alias code="code-insiders"
 
 # NODE VERSION MANAGER
@@ -66,3 +66,6 @@ function extract {
     fi
   fi
 }
+
+#set jdk1.8 by default
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0)
