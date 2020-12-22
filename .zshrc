@@ -66,6 +66,9 @@ function extract {
     fi
   fi
 }
-
-#set jdk1.8 by default
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0)
+# function to change jdk
+jdk() {
+        version=$1
+        export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+        java -version
+}
