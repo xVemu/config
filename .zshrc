@@ -9,7 +9,7 @@ plugins=(
 colemak
 colored-man-pages
 command-not-found
-compleat
+# compleat
 copydir
 copyfile
 cp
