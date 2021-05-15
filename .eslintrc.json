@@ -29,18 +29,21 @@
         ],
         "quotes": [
             "error",
-            "backtick"
+            "single",
+            {
+                "allowTemplateLiterals": false
+            }
         ],
         "semi": [
             "error",
-            "always"
+            "never"
         ],
         "arrow-parens": [
-            "error",
+            "warning",
             "as-needed"
         ],
         "prefer-destructuring": [
-            "error",
+            "warning",
             {
                 "object": true,
                 "array": true
