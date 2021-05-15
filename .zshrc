@@ -18,7 +18,6 @@ fancy-ctrl-z
 gpg-agent
 last-working-dir
 safe-paste
-vi-mode
 git-auto-fetch
 screen
 sudo
@@ -40,10 +39,15 @@ alias code="code-insiders"
 
 # function to change jdk
 jdk() {
-        version=$1
-        export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
-        java -version
+        if [ "$(uname)" == "Darwin" ]; then
+                version=$1
+                export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+                java -version
+        elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+                alias jdk="sudo update-alternatives --config java"
+        fi
 }
 
-# vi mode
-bindkey -v
+alias vim="nvim"
+alias vi="nvim"
+
