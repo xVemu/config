@@ -39,11 +39,11 @@
             "never"
         ],
         "arrow-parens": [
-            "warning",
+            "warn",
             "as-needed"
         ],
         "prefer-destructuring": [
-            "warning",
+            "warn",
             {
                 "object": true,
                 "array": true
@@ -51,13 +51,7 @@
         ],
         "comma-dangle": [
             "error",
-            {
-                "arrays": "always-multiline",
-                "objects": "always-multiline",
-                "imports": "always-multiline",
-                "exports": "always-multiline",
-                "functions": "always-multiline"
-            }
+            "always-multiline"
         ]
     }
 }
