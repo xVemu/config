@@ -51,3 +51,5 @@ jdk() {
 alias vim="nvim"
 alias vi="nvim"
 
+export NVM_SYMLINK_CURRENT=true
+ls -ld $NVM_DIR/current
