@@ -16,6 +16,10 @@
         "sourceType": "module"
     },
     "rules": {
+        "strict": [
+            "error",
+            "global"
+        ],
         "indent": [
             "error",
             4,
