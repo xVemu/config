@@ -74,5 +74,4 @@ conf=$(dconf dump /org/gnome/terminal/legacy/profiles:/ | grep -e "\[\:.*\]")
 conf=${conf:2:-1}
 dconf load /org/gnome/terminal/legacy/profiles:/:$conf/ < cobalt2.dconf
 rm cobalt2.dconf
-rm -- "$0"
 gnome-session-quit --force
