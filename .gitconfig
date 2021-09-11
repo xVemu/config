@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	editor = code-insiders --wait
+	filemode = false
 [commit]
 	gpgsign = true
 [push]
