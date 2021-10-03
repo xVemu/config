@@ -13,6 +13,8 @@ command-not-found
 copydir
 copyfile
 cp
+docker
+docker-compose
 extract
 fancy-ctrl-z
 gpg-agent
