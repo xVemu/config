@@ -9,3 +9,5 @@
 	gpgsign = true
 [push]
 	followTags = true
+[gpg]
+        program = gpg2
