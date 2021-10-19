@@ -2,7 +2,7 @@
 	name = xVemu
 	email = 38427679+xVemu@users.noreply.github.com
 [core]
-	autocrlf = input
+	autocrlf = true
 	editor = code-insiders --wait
 	filemode = false
 [commit]
