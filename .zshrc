@@ -10,7 +10,7 @@ colemak
 colored-man-pages
 command-not-found
 # compleat
-copydir
+copypath
 copyfile
 cp
 docker
@@ -38,6 +38,10 @@ prompt_context() {}
 # ALIASES
 alias gp="git pull"
 alias code="code-insiders"
+alias ls=exa
+alias cat='bat --paging=never'
+alias vim="nvim"
+alias vi="nvim"
 
 # function to change jdk
 jdk() {
@@ -49,9 +53,6 @@ jdk() {
                 alias jdk="sudo update-alternatives --config java"
         fi
 }
-
-alias vim="nvim"
-alias vi="nvim"
 
 export NVM_SYMLINK_CURRENT=true
 ls -ld $NVM_DIR/current
