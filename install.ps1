@@ -4,6 +4,7 @@ winget import .\windows\winget.json
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
 # setup
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 $drive = "G:\Mój dysk\Format"
 $download = "$HOME\Downloads"
 $desktop = "$HOME\Desktop"
