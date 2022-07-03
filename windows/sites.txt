@@ -12,3 +12,4 @@ https://www.jetbrains.com/idea/nextversion/#section=windows
 https://go.jetbrains.com/NDI2LVFWRC0xMTQAAAGE4cDWkBFW0EMTFowYzARbPKXnCkzAkvZO8TUCifncX3rZaHbMZ7FIajo2HahWRXVhL_cNWIk=
 https://www.jetbrains.com/lp/mono/
 https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import-on-different-machine
+https://github.com/kensuke/WSAGAScript
