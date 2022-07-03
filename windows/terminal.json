@@ -1,0 +1,131 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "disabledProfileSources": [
+    "Windows.Terminal.Azure"
+  ],
+  "experimental.rendering.software": false,
+  "profiles": {
+    "defaults": {
+      "bellStyle": [
+        "audible",
+        "taskbar"
+      ],
+      "colorScheme": "Cobalt2",
+      "font": {
+        "face": "JetBrainsMono NF"
+      },
+      "intenseTextStyle": "none",
+      "useAcrylic": false
+    },
+    "list": [
+      {
+      "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+      "hidden": false,
+      "name": "PowerShell",
+      "source": "Windows.Terminal.PowershellCore"
+    },
+      {
+        "commandline": "ssh oracle",
+        "guid": "{534bf5cc-f155-4b3b-9b7d-8258ed3e12c1}",
+        "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+        "name": "Oracle"
+      },
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "commandline": "ssh oracle-x64",
+        "guid": "{534bf5cc-f155-4b3b-9b7d-8258ed3e12c1}",
+        "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+        "name": "Oracle"
+      },
+      {
+        "hidden": true,
+        "commandline": "wsl.exe -d Arch ssh oracle",
+        "guid": "{534bf5cc-f155-4b3b-9b7d-8258ed3e12c1}",
+        "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+        "name": "Oracle from Linux"
+      },
+      {
+        "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+        "hidden": true,
+        "name": "Arch",
+        "source": "Windows.Terminal.Wsl",
+        "startingDirectory": "E:\\"
+      },
+      {
+        "commandline": "powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": true,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "wsl.exe -d Arch ssh oracle-x64",
+        "guid": "{cff8810e-238d-414b-b002-037811fa902b}",
+        "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+        "name": "Oracle x64",
+        "hidden": true
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#193549",
+      "black": "#000000",
+      "blue": "#1478DB",
+      "brightBlack": "#808080",
+      "brightBlue": "#1478DB",
+      "brightCyan": "#00FFFF",
+      "brightGreen": "#33FF00",
+      "brightPurple": "#CC00FF",
+      "brightRed": "#FF0000",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFFF00",
+      "cursorColor": "#FFC600",
+      "cyan": "#00C5C7",
+      "foreground": "#C7C7C7",
+      "green": "#3AD900",
+      "name": "Cobalt2",
+      "purple": "#FF2C70",
+      "red": "#FF2600",
+      "selectionBackground": "#FFFFFF",
+      "white": "#C7C7C7",
+      "yellow": "#FFC600"
+    }
+  ],
+  "showTabsInTitlebar": true,
+  "tabSwitcherMode": "disabled",
+  "tabWidthMode": "equal",
+  "useAcrylicInTabRow": true
+}
