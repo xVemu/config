@@ -45,7 +45,7 @@ New-Item -Path $PROFILE -Type File -Force
 Copy-Item .\windows\profile.ps1 $PROFILE
 
 Install-Module z -AllowClobber
-Install-Module PSReadLine
+Install-Module PSReadLine -AllowPrerelease -Force
 Install-Module -Name Terminal-Icons -Repository PSGallery
 
 oh-my-posh font install

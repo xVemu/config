@@ -13,3 +13,5 @@ https://go.jetbrains.com/NDI2LVFWRC0xMTQAAAGE4cDWkBFW0EMTFowYzARbPKXnCkzAkvZO8TU
 https://www.jetbrains.com/lp/mono/
 https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import-on-different-machine
 https://github.com/kensuke/WSAGAScript
+https://www.howtogeek.com/tips/how-to-run-a-scheduled-task-without-a-command-window-appearing/
+https://web.synametrics.com/syncrifytaskwopwd.htm
