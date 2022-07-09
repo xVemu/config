@@ -35,6 +35,9 @@ Copy-Item "$drive\LOL Config\*" "C:\Riot Games\League of Legends\Config\" -Recur
 mkdir "C:\Program Files\OpenVPN\config"
 Copy-Item "$drive\wykladowca" "C:\Program Files\OpenVPN\config\" -Recurse
 Copy-Item "$drive\igconfig.xml" "C:\Program Files\ImageGlass\"
+mkdir "C:\WSA"
+Expand-Archive "$drive\WSA.zip" -DestinationPath "C:\WSA\"
+Add-AppxPackage -Register "C:\WSA\AppxManifest.xml"
 Copy-Item ".\windows\terminal.json" "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 
