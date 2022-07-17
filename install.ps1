@@ -18,6 +18,7 @@ Copy-Item "$drive\.ssh" $HOME -Recurse
 Copy-Item "$drive\Pulpit\*" $desktop -Recurse
 Copy-Item "$drive\bttv_settings.backup" $desktop
 Copy-Item "$drive\radeon.zip" $desktop
+Copy-Item "$drive\android-studio.zip" $desktop
 Copy-Item ".\windows\dailywallpaper.ps1" $desktop
 
 # downloads
