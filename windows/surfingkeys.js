@@ -1,12 +1,12 @@
-api.Hints.style('border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;')
-api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;", "text")
-api.Visual.style('marks', 'background-color: #52C19699;')
-api.Visual.style('cursor', 'background-color: #81A2BE;')
-api.Hints.setNumeric()
+api.Hints.style('border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;');
+api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;", "text");
+api.Visual.style('marks', 'background-color: #52C19699;');
+api.Visual.style('cursor', 'background-color: #81A2BE;');
+api.Hints.setNumeric();
 
 // Main
-api.map("F", "f") // Open a link
-api.map("f", "cf") // Open multiple links in new tab
+api.map("<Ctrl-;>", "f") // Open a link
+api.map(";", "cf") // Open multiple links in new tab
 api.map("C", "cs") // Change scroll target
 api.map("s", "e") // Scroll half page up
 api.map("c", "d") // Scroll half page down
@@ -14,8 +14,8 @@ api.map("c", "d") // Scroll half page down
 api.unmapAllExcept([
     "?", // Show usage
     ".", // Repeat last action
-    "f",
-    "F",
+    "<Ctrl-;>",
+    ";",
     "i", // Go to edit box
     "C",
     "s",
@@ -32,6 +32,26 @@ api.unmapAllExcept([
 
 api.cmap("<ArrowRight>", "<Ctrl-.>") //Show results of next page
 api.cmap("<ArrowLeft>", "<Ctrl-,>") //Show results of previous page
+
+// Search Engines
+api.removeSearchAlias('b', 's')
+api.removeSearchAlias('d', 's')
+api.removeSearchAlias('g', 's')
+api.removeSearchAlias('h', 's')
+api.removeSearchAlias('w', 's')
+api.removeSearchAlias('y', 's')
+api.removeSearchAlias('s', 's')
+
+// Brave Search as default
+api.addSearchAlias('b', 'brave', 'https://search.brave.com/search?q=', 's')
+settings.defaultSearchEngine = 'b'
+
+// Video playback speed
+function videoSpeedUp() {
+    let playBackSpeed = document.querySelector('video').playbackRate
+    document.querySelector('video').playbackRate = playBackSpeed === 1.5 ? 1.0 : 1.5
+}
+api.mapkey(']', 'video speed up', videoSpeedUp)
 
 // Omnibar
 const unmapOmnibar = [
@@ -292,4 +312,4 @@ input {
   font-size: var(--font-size);
   font-weight: var(--font-weight);
 }
-`
+`;
