@@ -83,6 +83,15 @@
 				},
 				{
 					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
+				},
+				{
+					"PackageIdentifier": "Python.Python.3"
+				},
+				{
+					"PackageIdentifier": "OpenJS.NodeJS.LTS"
+				},
+				{
+					"PackageIdentifier": "pnpm.pnpm.7"
 				}
 			],
 			"SourceDetails" : 
