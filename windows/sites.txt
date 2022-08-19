@@ -15,3 +15,4 @@ https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import
 https://github.com/kensuke/WSAGAScript
 https://www.howtogeek.com/tips/how-to-run-a-scheduled-task-without-a-command-window-appearing/
 https://web.synametrics.com/syncrifytaskwopwd.htm
+https://github.com/dominik59/polish_intellij_dictionary
