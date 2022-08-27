@@ -4,6 +4,8 @@ api.Visual.style('marks', 'background-color: #52C19699;');
 api.Visual.style('cursor', 'background-color: #81A2BE;');
 api.Hints.setNumeric();
 
+settings.blacklistPattern = /facebook.com/i
+
 // Main
 api.map("<Ctrl-;>", "f") // Open a link
 api.map(";", "cf") // Open multiple links in new tab
