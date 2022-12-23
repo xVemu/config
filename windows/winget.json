@@ -1,10 +1,10 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-07-03T18:16:40.804-00:00",
-	"Sources" : 
+	"CreationDate" : "2022-12-23T13:24:23.121-00:00",
+	"Sources" :
 	[
 		{
-			"Packages" : 
+			"Packages" :
 			[
 				{
 					"PackageIdentifier" : "Badlion.BadlionClient"
@@ -13,19 +13,19 @@
 					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
-					"PackageIdentifier" : "Google.AndroidStudio"
+					"PackageIdentifier" : "Brave.Brave"
 				},
 				{
-					"PackageIdentifier" : "BraveSoftware.BraveBrowser"
+					"PackageIdentifier" : "Google.ChromeRemoteDesktop"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
-					"PackageIdentifier" : "Docker.DockerDesktop"
+					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Git.Git"
+					"PackageIdentifier" : "Mega.MEGASync"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
@@ -34,19 +34,19 @@
 					"PackageIdentifier" : "Mozilla.Firefox"
 				},
 				{
-					"PackageIdentifier" : "Postman.Postman"
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
 					"PackageIdentifier" : "Valve.Steam"
 				},
 				{
-					"PackageIdentifier" : "Ubisoft.Connect"
+					"PackageIdentifier" : "JetBrains.Toolbox"
 				},
 				{
 					"PackageIdentifier" : "qBittorrent.qBittorrent"
-				},
-				{
-					"PackageIdentifier" : "Radmin.VPN"
 				},
 				{
 					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
@@ -55,55 +55,28 @@
 					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
 				},
 				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.11"
-				},
-				{
-					"PackageIdentifier" : "ElectronicArts.EADesktop"
-				},
-				{
 					"PackageIdentifier" : "Google.Drive"
-				},
-				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.17"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "EclipseAdoptium.TemurinJRE.8"
-				},
-				{
 					"PackageIdentifier" : "OpenVPNTechnologies.OpenVPN"
 				},
 				{
-					"PackageIdentifier" : "Google.ChromeRemoteDesktop"
-				},
-				{
 					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
-				},
-				{
-					"PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
-				},
-				{
-					"PackageIdentifier": "Python.Python.3"
-				},
-				{
-					"PackageIdentifier": "OpenJS.NodeJS.LTS"
-				},
-				{
-					"PackageIdentifier": "pnpm.pnpm.7"
 				}
 			],
-			"SourceDetails" : 
+			"SourceDetails" :
 			{
-				"Argument" : "https://winget.azureedge.net/cache",
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
 			}
 		},
 		{
-			"Packages" : 
+			"Packages" :
 			[
 				{
 					"PackageIdentifier" : "9N97ZCKPD60Q"
@@ -115,7 +88,7 @@
 					"PackageIdentifier" : "9N0866FS04W8"
 				}
 			],
-			"SourceDetails" : 
+			"SourceDetails" :
 			{
 				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
 				"Identifier" : "StoreEdgeFD",
@@ -124,5 +97,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.11601"
+	"WinGetVersion" : "1.3.2691"
 }
