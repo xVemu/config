@@ -3,6 +3,7 @@
 	email = 38427679+xVemu@users.noreply.github.com
 [core]
 	autocrlf = true
+	filemode = false
 [commit]
 	gpgsign = true
 [push]
