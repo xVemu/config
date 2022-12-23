@@ -12,18 +12,19 @@ setx PATH "$env:path;$download" -m
 
 # copy files
 Copy-Item .\windows\.gitconfig $HOME
-Copy-Item "$drive\.ssh" $HOME -Recurse
+mkdir "$HOME\.ssh"
+Copy-Item "$drive\.ssh\id_rsa" "$HOME\.ssh\id_rsa"
+Copy-Item "$drive\.ssh\private.gpg" "$HOME\.ssh\private.gpg"
 
 # desktop
 Copy-Item "$drive\Pulpit\*" $desktop -Recurse
 Copy-Item "$drive\bttv_settings.backup" $desktop
 Copy-Item "$drive\radeon.zip" $desktop
-Copy-Item "$drive\android-studio.zip" $desktop
-Copy-Item ".\windows\dailywallpaper.ps1" $desktop
+# Copy-Item ".\windows\dailywallpaper.ps1" $desktop
 
 # downloads
-Copy-Item ".\windows\jdk.bat" $download
-Copy-Item "$drive\fiszkoteka.exe" $download
+# Copy-Item ".\windows\jdk.bat" $download
+# Copy-Item "$drive\fiszkoteka.exe" $download
 Expand-Archive "$drive\polmak12.zip" -DestinationPath $download
 reg import "$download\polmak12\Caps to Backspace.reg"
 & "$download\polmak12\setup.exe"
@@ -36,11 +37,7 @@ Copy-Item "$drive\LOL Config\*" "C:\Riot Games\League of Legends\Config\" -Recur
 mkdir "C:\Program Files\OpenVPN\config"
 Copy-Item "$drive\wykladowca" "C:\Program Files\OpenVPN\config\" -Recurse
 Copy-Item "$drive\igconfig.xml" "C:\Program Files\ImageGlass\"
-mkdir "C:\WSA"
-Expand-Archive "$drive\WSA.zip" -DestinationPath "C:\WSA\"
-Add-AppxPackage -Register "C:\WSA\AppxManifest.xml"
 Copy-Item ".\windows\terminal.json" "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
-
 
 # oh my posh
 Copy-Item .\windows\cobalt2.omp.json $HOME
@@ -57,18 +54,9 @@ oh-my-posh font install
 . $PROFILE
 
 # open rest download pages in browser
-Invoke-WebRequest "https://github.com/Freaky/Compactor/releases/download/v0.10.1/Compactor-0.10.1.zip" -OutFile $download
+# Invoke-WebRequest "https://github.com/Freaky/Compactor/releases/download/v0.10.1/Compactor-0.10.1.zip" -OutFile $download
 
 
 foreach($item in Get-Content .\windows\sites.txt) {
     & "$env:LOCALAPPDATA\BraveSoftware\Brave-Browser\Application\brave.exe" $item
 }
-
-# clone all projects
-mkdir "C:\AndroidProjects"
-mkdir "C:\JavaProjects"
-mkdir "C:\NodeProjects"
-git clone git@github.com:xVemu/sociely.git "C:\JavaProjects\"
-git clone git@github.com:xVemu/diamold.git "C:\JavaProjects\"
-git clone git@github.com:xVemu/zsme.git "C:\AndroidProjects\"
-git clone git@github.com:xVemu/dsbot.git "C:\NodeProjects\"
