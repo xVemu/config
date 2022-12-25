@@ -52,7 +52,8 @@
                 "face": "JetBrainsMono NF"
             },
             "intenseTextStyle": "none",
-            "useAcrylic": false
+            "opacity": 60,
+            "useAcrylic": true
         },
         "list": 
         [
@@ -63,42 +64,23 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "antialiasingMode": "grayscale",
-                "colorScheme": "Cobalt2",
                 "commandline": "ssh oracle",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "JetBrains Mono"
-                },
                 "guid": "{534bf5cc-f155-4b3b-9b7d-8258ed3e12c1}",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "name": "Oracle",
-                "startingDirectory": "%USERPROFILE%",
-                "suppressApplicationTitle": false,
-                "useAcrylic": false
+                "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Cobalt2",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
-                "antialiasingMode": "grayscale",
-                "colorScheme": "Cobalt2",
                 "commandline": "ssh oracle-x64",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "JetBrains Mono"
-                },
                 "guid": "{cff8810e-238d-414b-b002-037811fa902b}",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "name": "Oracle x64",
-                "startingDirectory": "%USERPROFILE%",
-                "suppressApplicationTitle": false,
-                "useAcrylic": false
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },

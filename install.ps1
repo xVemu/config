@@ -1,11 +1,11 @@
-winget import .\windows\winget.json
+winget import .\windows\winget.json --accept-package-agreements
 
 # refreshes path
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
 # setup
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
-$drive = "G:\Mój dysk\Format"
+$drive = "G:\My drive\Format"
 $download = "$HOME\Downloads"
 $desktop = "$HOME\Desktop"
 setx PATH "$env:path;$download" -m
@@ -15,6 +15,7 @@ Copy-Item .\windows\.gitconfig $HOME
 mkdir "$HOME\.ssh"
 Copy-Item "$drive\.ssh\id_rsa" "$HOME\.ssh\id_rsa"
 Copy-Item "$drive\.ssh\private.gpg" "$HOME\.ssh\private.gpg"
+Copy-Item "$drive\.ssh\config" "$HOME\.ssh\config"
 
 # desktop
 Copy-Item "$drive\Pulpit\*" $desktop -Recurse
@@ -28,8 +29,7 @@ Copy-Item "$drive\radeon.zip" $desktop
 Expand-Archive "$drive\polmak12.zip" -DestinationPath $download
 reg import "$download\polmak12\Caps to Backspace.reg"
 & "$download\polmak12\setup.exe"
-Remove-Item -Recurse polmak12
-Remove-Item polmak12.zip
+Remove-Item -Recurse "$download\polmak12"
 
 # custom path
 mkdir "C:\Riot Games\League of Legends\Config\"
@@ -58,5 +58,5 @@ oh-my-posh font install
 
 
 foreach($item in Get-Content .\windows\sites.txt) {
-    & "$env:LOCALAPPDATA\BraveSoftware\Brave-Browser\Application\brave.exe" $item
+    & "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" $item
 }
