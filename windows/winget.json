@@ -65,6 +65,9 @@
 				},
 				{
 					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
+				},
+				{
+					"PackageIdentifier" : "Twilio.Authy"
 				}
 			],
 			"SourceDetails" :
