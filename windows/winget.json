@@ -68,6 +68,9 @@
 				},
 				{
 					"PackageIdentifier" : "Twilio.Authy"
+				},
+				{
+					"PackageIdentifier" : "Armin2208.WindowsAutoNightMode"
 				}
 			],
 			"SourceDetails" :
