@@ -71,6 +71,9 @@
 				},
 				{
 					"PackageIdentifier" : "Armin2208.WindowsAutoNightMode"
+				},
+				{
+					"PackageIdentifier": "valinet.ExplorerPatcher"
 				}
 			],
 			"SourceDetails" :
