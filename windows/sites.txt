@@ -13,3 +13,4 @@ https://github.com/dominik59/polish_intellij_dictionary
 https://github.com/EricFengFuuuu/MagiskOnWSA
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/options.html
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete
+https://github.com/valinet/ExplorerPatcher/releases
