@@ -14,7 +14,7 @@ for /f "eol=: delims=" %%F in ('dir /b /ad *') do (
 ::print menu
 for /l %%N in (1 1 %folderCnt%) do echo %%N - !folder%%N!
 echo(
- 
+
 :get selection
 set selection=
 set /p "selection=Enter number to Set the JAVA_HOME and PATH "
@@ -23,13 +23,13 @@ cd %PT%\!folder%selection%!
 echo %cd%
 ( endlocal & rem return
    Set jdk=%cd%
- 
+
 )
 echo Setting JAVA_HOME
 SETX /M JAVA_HOME "%jdk%"
 SET JAVA_HOME=%jdk%
 echo %JAVA_HOME%
-REM echo setting PATH
-REM setx PATH %JAVA_HOME%\bin;%PATH% -m
-REM echo Display java version
-REM java -version
+echo setting PATH
+setx PATH /M "%JAVA_HOME%\bin;%PATH%"
+echo Display java version
+java -version

@@ -1,5 +1,4 @@
-https://www.amd.com/en/support/graphics/radeon-400-series/radeon-rx-400-series/radeon-rx-480
-https://github.com/ful1e5/apple_cursor/releases
+https://www.amernimezone.com/
 https://www.blackmagicdesign.com/products/davinciresolve
 https://affinity.serif.com/en-us/photo/
 https://play.google.com/store/apps/details?id=io.stashteam.games.tracker.stashapp
@@ -9,7 +8,6 @@ https://www.asus.com/Motherboards-Components/Motherboards/All-series/TUF-GAMING-
 https://remotedesktop.google.com/
 https://signup.leagueoflegends.com/en-us/signup/redownload?page_referrer=index
 https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import-on-different-machine
-https://github.com/dominik59/polish_intellij_dictionary
 https://github.com/EricFengFuuuu/MagiskOnWSA
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/options.html
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete
