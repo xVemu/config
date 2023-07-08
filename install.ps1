@@ -26,6 +26,8 @@ Copy-Item "$drive\radeon.zip" $desktop
 Copy-Item ".\windows\dailywallpaper.ps1" $desktop
 Copy-Item "$files\ExplorerPatcher.reg" $desktop
 Copy-Item "$files\cursors.zip" $desktop
+mkdir "$desktop\steam"
+Copy-Item "$drive\steam\*" "$desktop\steam" -Recurse
 
 # polmak
 Expand-Archive "$files\polmak12.zip" -DestinationPath $download
