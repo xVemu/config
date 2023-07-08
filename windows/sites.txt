@@ -11,3 +11,4 @@ https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import
 https://github.com/EricFengFuuuu/MagiskOnWSA
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/options.html
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete
+https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
