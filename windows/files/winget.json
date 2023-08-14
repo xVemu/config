@@ -72,6 +72,9 @@
         },
         {
           "PackageIdentifier": "Obsidian.Obsidian"
+        },
+        {
+          "PackageIdentifier": "SomePythonThings.WingetUIStore"
         }
       ],
       "SourceDetails": {
