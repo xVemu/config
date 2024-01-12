@@ -14,6 +14,9 @@
           "PackageIdentifier": "Brave.Brave"
         },
         {
+          "PackageIdentifier": "MysteriumNetwork.Mysterium"
+        },
+        {
           "PackageIdentifier": "Google.ChromeRemoteDesktop"
         },
         {
