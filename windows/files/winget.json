@@ -17,6 +17,9 @@
           "PackageIdentifier": "MysteriumNetwork.Mysterium"
         },
         {
+          "PackageIdentifier": "AdrienAllard.FileConverter"
+        },
+        {
           "PackageIdentifier": "Google.ChromeRemoteDesktop"
         },
         {
