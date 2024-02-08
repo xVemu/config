@@ -81,6 +81,9 @@
         },
         {
           "PackageIdentifier": "SomePythonThings.WingetUIStore"
+        },
+        {
+          "PackageIdentifier": "jqlang.jq"
         }
       ],
       "SourceDetails": {
