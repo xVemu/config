@@ -22,7 +22,7 @@ Copy-Item ".\windows\jdk.bat" $HOME
 # desktop
 Copy-Item "$drive\Pulpit\*" $desktop -Recurse
 Copy-Item "$files\bttv_settings.backup" $desktop
-Copy-Item "$drive\radeon.zip" $desktop
+# Copy-Item "$drive\radeon.zip" $desktop
 Copy-Item ".\windows\dailywallpaper.ps1" $desktop
 Copy-Item "$files\ExplorerPatcher.reg" $desktop
 Copy-Item "$files\cursors.zip" $desktop
@@ -36,11 +36,10 @@ reg import "$download\polmak12\Caps to Backspace.reg"
 Remove-Item -Recurse "$download\polmak12"
 
 # custom path
-mkdir "C:\Riot Games\League of Legends\Config\"
-Copy-Item "$files\LOL Config\*" "C:\Riot Games\League of Legends\Config\" -Recurse
+# mkdir "C:\Riot Games\League of Legends\Config\"
+# Copy-Item "$files\LOL Config\*" "C:\Riot Games\League of Legends\Config\" -Recurse
 mkdir "C:\Program Files\OpenVPN\config"
 Copy-Item "$drive\wykladowca" "C:\Program Files\OpenVPN\config\" -Recurse
-Copy-Item "$files\igconfig.xml" "C:\Program Files\ImageGlass\"
 Copy-Item "$files\terminal.json" "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 # oh my posh

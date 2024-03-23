@@ -14,12 +14,6 @@
           "PackageIdentifier": "Brave.Brave"
         },
         {
-          "PackageIdentifier": "MysteriumNetwork.Mysterium"
-        },
-        {
-          "PackageIdentifier": "AdrienAllard.FileConverter"
-        },
-        {
           "PackageIdentifier": "Google.ChromeRemoteDesktop"
         },
         {
@@ -83,7 +77,19 @@
           "PackageIdentifier": "SomePythonThings.WingetUIStore"
         },
         {
-          "PackageIdentifier": "jqlang.jq"
+          "PackageIdentifier": "TheBrowserCompany.Arc"
+        },
+        {
+          "PackageIdentifier": "AdrienAllard.FileConverter"
+        },
+        {
+          "PackageIdentifier": "JohnMacFarlane.Pandoc"
+        },
+        {
+          "PackageIdentifier": "Google.QuickShare"
+        },
+        {
+          "PackageIdentifier": "yt-dlp.yt-dlp"
         }
       ],
       "SourceDetails": {

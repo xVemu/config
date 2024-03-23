@@ -12,3 +12,4 @@ https://github.com/EricFengFuuuu/MagiskOnWSA
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/options.html
 https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/JetBrainsMonoNerdFont-Regular.ttf
 https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
+https://www.mysteriumdark.com/downloads-dark
