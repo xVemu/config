@@ -90,6 +90,9 @@
         },
         {
           "PackageIdentifier": "yt-dlp.yt-dlp"
+        },
+        {
+          "PackageIdentifier": "Oven-sh.Bun"
         }
       ],
       "SourceDetails": {
