@@ -112,7 +112,10 @@
         },
         {
           "PackageIdentifier": "9N0866FS04W8"
-        }
+        },
+        {
+          "PackageIdentifier": "9NGHP3DX8HDX"
+        {
       ],
       "SourceDetails": {
         "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
