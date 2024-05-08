@@ -12,20 +12,17 @@ $files = ".\windows\files"
 setx PATH "$env:path;$download;$HOME" -m
 
 # copy files
-Copy-Item .\windows\.gitconfig $HOME
+Copy-Item "$files\.gitconfig" $HOME
 mkdir "$HOME\.ssh"
 Copy-Item "$drive\.ssh\id_rsa" "$HOME\.ssh\id_rsa"
 Copy-Item "$drive\.ssh\private.gpg" "$HOME\.ssh\private.gpg"
 Copy-Item "$drive\.ssh\config" "$HOME\.ssh\config"
-Copy-Item ".\windows\jdk.bat" $HOME
+# Copy-Item ".\windows\jdk.bat" $HOME
 
 # desktop
 Copy-Item "$drive\Pulpit\*" $desktop -Recurse
+Copy-Item ".\windows\dekstop\*" $desktop -Recurse
 Copy-Item "$files\bttv_settings.backup" $desktop
-# Copy-Item "$drive\radeon.zip" $desktop
-Copy-Item ".\windows\dailywallpaper.ps1" $desktop
-Copy-Item "$files\ExplorerPatcher.reg" $desktop
-Copy-Item "$files\cursors.zip" $desktop
 mkdir "$desktop\steam"
 Copy-Item "$drive\steam\*" "$desktop\steam" -Recurse
 

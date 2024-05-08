@@ -5,16 +5,10 @@
     {
       "Packages": [
         {
-          "PackageIdentifier": "Badlion.BadlionClient"
-        },
-        {
           "PackageIdentifier": "7zip.7zip"
         },
         {
           "PackageIdentifier": "Brave.Brave"
-        },
-        {
-          "PackageIdentifier": "Google.ChromeRemoteDesktop"
         },
         {
           "PackageIdentifier": "Discord.Discord"
@@ -44,16 +38,13 @@
           "PackageIdentifier": "JetBrains.Toolbox"
         },
         {
-          "PackageIdentifier": "qBittorrent.qBittorrent"
-        },
-        {
           "PackageIdentifier": "DuongDieuPhap.ImageGlass"
         },
         {
           "PackageIdentifier": "EpicGames.EpicGamesLauncher"
         },
         {
-          "PackageIdentifier": "Google.Drive"
+          "PackageIdentifier": "Google.GoogleDrive"
         },
         {
           "PackageIdentifier": "Microsoft.PowerShell"
@@ -77,22 +68,13 @@
           "PackageIdentifier": "SomePythonThings.WingetUIStore"
         },
         {
-          "PackageIdentifier": "TheBrowserCompany.Arc"
-        },
-        {
-          "PackageIdentifier": "AdrienAllard.FileConverter"
-        },
-        {
-          "PackageIdentifier": "JohnMacFarlane.Pandoc"
-        },
-        {
           "PackageIdentifier": "Google.QuickShare"
         },
         {
-          "PackageIdentifier": "yt-dlp.yt-dlp"
+          "PackageIdentifier": "Oven-sh.Bun"
         },
         {
-          "PackageIdentifier": "Oven-sh.Bun"
+          "PackageIdentifier": "mpv.net"
         }
       ],
       "SourceDetails": {
@@ -108,14 +90,8 @@
           "PackageIdentifier": "9N97ZCKPD60Q"
         },
         {
-          "PackageIdentifier": "9N64SQZTB3LM"
-        },
-        {
           "PackageIdentifier": "9N0866FS04W8"
-        },
-        {
-          "PackageIdentifier": "9NGHP3DX8HDX"
-        {
+        }
       ],
       "SourceDetails": {
         "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
