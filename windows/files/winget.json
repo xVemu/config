@@ -78,6 +78,9 @@
         },
         {
           "PackageIdentifier": "ajeetdsouza.zoxide"
+        },
+        {
+          "PackageIdentifier": "junegunn.fzf"
         }
       ],
       "SourceDetails": {
