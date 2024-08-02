@@ -75,6 +75,9 @@
         },
         {
           "PackageIdentifier": "mpv.net"
+        },
+        {
+          "PackageIdentifier": "ajeetdsouza.zoxide"
         }
       ],
       "SourceDetails": {
