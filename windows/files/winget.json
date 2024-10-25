@@ -5,7 +5,7 @@
     {
       "Packages": [
         {
-          "PackageIdentifier": "Giorgiotani.Peazip"
+          "PackageIdentifier": "7zip.7zip"
         },
         {
           "PackageIdentifier": "Brave.Brave"
