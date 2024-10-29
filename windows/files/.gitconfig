@@ -8,6 +8,7 @@
 	gpgsign = true
 [push]
 	followTags = true
+	autoSetupRemote = true
 [gpg]
 	program = "C:/Program Files/Git/usr/bin/gpg.exe"
 [pull]
