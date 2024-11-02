@@ -1,17 +1,11 @@
 https://www.amernimezone.com/
 https://www.blackmagicdesign.com/products/davinciresolve
 https://affinity.serif.com/en-us/photo/
-https://play.google.com/store/apps/details?id=io.stashteam.games.tracker.stashapp
-https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community
-https://play.google.com/store/apps/details?id=pl.ing.mojeing&hl=pl&gl=US
 https://www.asus.com/Motherboards-Components/Motherboards/All-series/TUF-GAMING-B450-PLUS-II/HelpDesk_Download/
 https://remotedesktop.google.com/
-https://signup.leagueoflegends.com/en-us/signup/redownload?page_referrer=index
 https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import-on-different-machine
-https://github.com/EricFengFuuuu/MagiskOnWSA
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/options.html
 https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/JetBrainsMonoNerdFont-Regular.ttf
 https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
 https://www.mysteriumdark.com/downloads-dark
-https://files.community/download
 https://github.com/GooseMod/OpenAsar/wiki/Install-Guide
