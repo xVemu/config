@@ -78,6 +78,9 @@
         },
         {
           "PackageIdentifier": "junegunn.fzf"
+        },
+        {
+          "PackageIdentifier": "version-fox.vfox"
         }
       ],
       "SourceDetails": {
