@@ -1,5 +1,8 @@
 # config
 
+## Any linux
+`wget -O - -q https://raw.githubusercontent.com/xVemu/config/refs/heads/master/install.sh | sh -s --`
+
 ## Ubuntu
 `bash -c "$(wget -O- http://vemu.ddns.net/script.sh)"`
 

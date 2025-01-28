@@ -5,4 +5,8 @@ if status is-interactive
     alias ls='exa'
     alias l='exa -l'
     alias vi='nvim'
+    alias mv="mv -iv"
+    alias cp="cp -riv"
+    alias mkdir='mkdir -vp'
+    zoxide init fish | source
 end
