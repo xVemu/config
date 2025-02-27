@@ -81,6 +81,9 @@
         },
         {
           "PackageIdentifier": "version-fox.vfox"
+        },
+        {
+          "PackageIdentifier": "Warp.Warp"
         }
       ],
       "SourceDetails": {
