@@ -11,7 +11,7 @@
           "PackageIdentifier": "Brave.Brave"
         },
         {
-          "PackageIdentifier": "Discord.Discord"
+          "PackageIdentifier": "smartfrigde.Legcord"
         },
         {
           "PackageIdentifier": "Git.Git"
@@ -84,6 +84,9 @@
         },
         {
           "PackageIdentifier": "Warp.Warp"
+        },
+        {
+          "PackageIdentifier": "Google.QuickShare"
         }
       ],
       "SourceDetails": {
