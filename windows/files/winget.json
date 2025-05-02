@@ -87,6 +87,9 @@
         },
         {
           "PackageIdentifier": "Google.QuickShare"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerToys"
         }
       ],
       "SourceDetails": {
