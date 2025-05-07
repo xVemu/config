@@ -13,5 +13,3 @@
 	program = "C:/Program Files/Git/usr/bin/gpg.exe"
 [pull]
 	rebase = true
-[push]
-	followTags = true
