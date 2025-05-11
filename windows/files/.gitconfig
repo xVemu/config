@@ -13,3 +13,5 @@
 	program = "C:/Program Files/Git/usr/bin/gpg.exe"
 [pull]
 	rebase = true
+[submodule]
+	recurse = true
