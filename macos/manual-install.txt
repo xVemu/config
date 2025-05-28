@@ -1,0 +1,6 @@
+podman desktop
+karabiner elements
+nomachine
+beeper
+xcode
+vfox
