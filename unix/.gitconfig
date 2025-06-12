@@ -8,8 +8,9 @@
 	gpgsign = true
 [push]
 	followTags = true
-[gpg]
-        program = gpg2
+	autoSetupRemote = true
+[pull]
+	rebase = true
 [submodule]
 	recurse = true
 [alias]
