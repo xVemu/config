@@ -15,3 +15,5 @@
 	rebase = true
 [submodule]
 	recurse = true
+[alias]
+	lol = log --oneline --graph --decorate
