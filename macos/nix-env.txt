@@ -19,3 +19,4 @@ tealdeer
 vscode
 warp-terminal
 zoxide
+alt-tab-macos
