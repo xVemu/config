@@ -4,4 +4,3 @@ nomachine
 beeper
 xcode
 vfox
-https://github.com/achendev/DisableCtrlClick
