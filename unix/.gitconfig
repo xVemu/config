@@ -1,6 +1,7 @@
 [user]
 	name = Kamil Kras
 	email = 38427679+xVemu@users.noreply.github.com
+	signingkey = ~/.ssh/id_rsa
 [core]
 	autocrlf = input
 	filemode = false
@@ -13,8 +14,8 @@
 	rebase = true
 [submodule]
 	recurse = true
+[gpg]
+	format = ssh
 [alias]
 	lol = log --oneline --graph --decorate
     author-personal = config user.email "38427679+xVemu@users.noreply.github.com"
-[gpg]
-	format = ssh
