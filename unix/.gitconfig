@@ -1,5 +1,5 @@
 [user]
-	name = xVemu
+	name = Kamil Kras
 	email = 38427679+xVemu@users.noreply.github.com
 [core]
 	autocrlf = input
@@ -15,5 +15,6 @@
 	recurse = true
 [alias]
 	lol = log --oneline --graph --decorate
+    author-personal = config user.email "38427679+xVemu@users.noreply.github.com"
 [gpg]
 	format = ssh
