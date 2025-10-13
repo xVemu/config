@@ -14,8 +14,7 @@ setx PATH "$env:path;$download;$HOME" -m
 # copy files
 Copy-Item "$files\.gitconfig" $HOME
 mkdir "$HOME\.ssh"
-Copy-Item "$drive\.ssh\id_rsa" "$HOME\.ssh\id_rsa"
-Copy-Item "$drive\.ssh\private.gpg" "$HOME\.ssh\private.gpg"
+Copy-Item "$drive\.ssh\id_ed25519" "$HOME\.ssh\id_ed25519"
 Copy-Item "$drive\.ssh\config" "$HOME\.ssh\config"
 Copy-Item "$drive\settings_133906550557536108.ptb" "$HOME\Documents\PowerToys\Backup\settings_133906550557536108.ptb"
 # Copy-Item ".\windows\jdk.bat" $HOME

@@ -1,7 +1,7 @@
 [user]
 	name = Kamil Kras
 	email = 38427679+xVemu@users.noreply.github.com
-	signingkey = ~/.ssh/id_rsa
+	signingkey = ~/.ssh/id_ed25519
 [core]
 	autocrlf = true
 	filemode = false
