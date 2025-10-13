@@ -10,7 +10,7 @@
 	followTags = true
 	autoSetupRemote = true
 [gpg]
-	program = "C:/Program Files/Git/usr/bin/gpg.exe"
+	format = ssh
 [pull]
 	rebase = true
 [submodule]

@@ -15,3 +15,5 @@
 	recurse = true
 [alias]
 	lol = log --oneline --graph --decorate
+[gpg]
+	format = ssh
