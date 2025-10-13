@@ -4,3 +4,5 @@ nomachine
 beeper
 xcode
 vfox
+https://github.com/sbarex/SourceCodeSyntaxHighlight
+alt-tab-macos
