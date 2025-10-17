@@ -16,7 +16,7 @@ Copy-Item "$files\.gitconfig" $HOME
 mkdir "$HOME\.ssh"
 Copy-Item "$drive\.ssh\id_ed25519" "$HOME\.ssh\id_ed25519"
 Copy-Item "$drive\.ssh\config" "$HOME\.ssh\config"
-Copy-Item "$drive\settings_133906550557536108.ptb" "$HOME\Documents\PowerToys\Backup\settings_133906550557536108.ptb"
+Copy-Item "$drive\powertoys.ptb" "$HOME\Documents\PowerToys\Backup\powertoys.ptb"
 # Copy-Item ".\windows\jdk.bat" $HOME
 
 # desktop
