@@ -16,8 +16,8 @@ Copy-Item "$files\.gitconfig" $HOME
 mkdir "$HOME\.ssh"
 Copy-Item "$drive\.ssh\id_ed25519" "$HOME\.ssh\id_ed25519"
 Copy-Item "$drive\.ssh\config" "$HOME\.ssh\config"
-Copy-Item "$drive\powertoys.ptb" "$HOME\Documents\PowerToys\Backup\powertoys.ptb"
-Copy-Item "$files\command-palette.json" "$env:LOCALAPPDATA\Packages\Microsoft.CommandPalette_8wekyb3d8bbwe\LocalState\settings.json"
+# Copy-Item "$drive\powertoys.ptb" "$HOME\Documents\PowerToys\Backup\powertoys.ptb"
+# Copy-Item "$files\command-palette.json" "$env:LOCALAPPDATA\Packages\Microsoft.CommandPalette_8wekyb3d8bbwe\LocalState\settings.json"
 # Copy-Item ".\windows\jdk.bat" $HOME
 
 # desktop
