@@ -1,0 +1,4 @@
+https://github.com/jorgebucaran/fisher
+https://github.com/michalzajda/colemak
+defaults write com.apple.Finder AppleShowAllFiles true
+copy raycast config from gdrive/formac/mac/rayconfig

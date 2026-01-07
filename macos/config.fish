@@ -9,9 +9,8 @@ if status is-interactive
     alias lt 'eza --tree'
     alias mkdir 'mkdir -vp'
     alias mv 'mv -iv'
-    alias vi nvim
 
-    /Users/kkras/.nix-profile/bin/zoxide init fish | source
+    zoxide init fish | source
     vfox activate fish | source
 
     set -g theme_hide_hostname yes
