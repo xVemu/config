@@ -1,0 +1,41 @@
+1. `winget import winget.json --accept-package-agreements`
+2. `setx PATH "$env:path;$HOME\Downloads;$HOME" -m`
+3. Install files from repo
+4. Copy gdrive:
+    - .ssh/id_ed25519* and .ssh/config
+    - pulpit
+    - steam and install https://github.com/Jessecar96/SteamDesktopAuthenticator/releases
+    - wykladowca to openvpn. Setup in /etc/hosts: 172.16.16.21 pp.pwsztar.edu.pl
+5. Copy files/terminal.json to %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+6. OhMyPosh
+    - Copy cobalt2.omp.json to $HOME
+    - `New-Item -Path $PROFILE -Type File -Force`
+    - Copy profile.ps1 to $PROFILE
+    - `Install-Module PSReadLine -AllowPrerelease -Force`
+    - `Install-Module -Name Terminal-Icons -Repository PSGallery`
+    - `oh-my-posh font install`
+7. Install manually:
+    - https://affinity.serif.com/en-us/photo/
+    - https://www.asus.com/Motherboards-Components/Motherboards/All-series/TUF-GAMING-B450-PLUS-II/HelpDesk_Download/
+    - https://remotedesktop.google.com/
+    - https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/JetBrainsMonoNerdFont-Regular.ttf
+    - https://github.com/sinelaw/fresh
+8. Setup daily wallpaper:
+    - import tapeta.xml into task scheduler
+    - https://web.synametrics.com/syncrifytaskwopwd.htm
+9. Setup brave adblock:
+```
+youtube.com##.ytInlinePlayerControlsTopLeftControls
+youtube.com##ytd-download-button-renderer
+youtube.com##button[aria-label="Klip"]
+youtube.com##button[aria-label="Podziękuj"]
+
+www.fandom.com##.top-ads-container
+lol.fandom.com##.top-ads-container
+
+www.flashscore.pl##.otPlaceholder
+
+filman.cc##.img-responsive
+
+streamtape.com##.play-overlay
+```

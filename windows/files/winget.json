@@ -62,9 +62,6 @@
           "PackageIdentifier": "Google.QuickShare"
         },
         {
-          "PackageIdentifier": "Oven-sh.Bun"
-        },
-        {
           "PackageIdentifier": "mpv.net"
         },
         {
@@ -80,10 +77,25 @@
           "PackageIdentifier": "Warp.Warp"
         },
         {
-          "PackageIdentifier": "Google.QuickShare"
+          "PackageIdentifier": "Armin2208.WindowsAutoNightMode"
         },
         {
-          "PackageIdentifier": "Armin2208.WindowsAutoNightMode"
+          "PackageIdentifier": "Beeper.Beeper"
+        },
+        {
+          "PackageIdentifier": "Discord.Discord"
+        },
+        {
+          "PackageIdentifier": "Gyan.FFmpeg"
+        },
+        {
+          "PackageIdentifier": "yt-dlp.yt-dlp"
+        },
+        {
+          "PackageIdentifier": "Stremio.Stremio"
+        },
+        {
+          "PackageIdentifier": "Raycast.Raycast"
         }
       ],
       "SourceDetails": {
@@ -95,9 +107,6 @@
     },
     {
       "Packages": [
-        {
-          "PackageIdentifier": "9N97ZCKPD60Q"
-        },
         {
           "PackageIdentifier": "9N0866FS04W8"
         }
