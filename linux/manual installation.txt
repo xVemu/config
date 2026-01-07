@@ -1,0 +1,8 @@
+fish
+fresh
+eza
+bat
+zoxide
+vfox
+
+https://github.com/jorgebucaran/fisher
