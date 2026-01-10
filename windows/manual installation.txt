@@ -25,10 +25,15 @@
     - https://web.synametrics.com/syncrifytaskwopwd.htm
 9. Setup brave adblock:
 ```
+! sponsored in thumbnail
 youtube.com##.ytInlinePlayerControlsTopLeftControls
 youtube.com##ytd-download-button-renderer
 youtube.com##button[aria-label="Klip"]
 youtube.com##button[aria-label="Podziękuj"]
+! speed
+youtube.com##div.ytp-panel-menu > div:nth-child(3)
+youtube.com##div.ytp-panel-menu > div:nth-child(4)
+youtube.com##div.ytp-panel-menu > div:nth-child(8)
 
 www.fandom.com##.top-ads-container
 lol.fandom.com##.top-ads-container
