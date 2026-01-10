@@ -31,9 +31,7 @@ youtube.com##ytd-download-button-renderer
 youtube.com##button[aria-label="Klip"]
 youtube.com##button[aria-label="Podziękuj"]
 ! speed
-youtube.com##div.ytp-panel-menu > div:nth-child(3)
-youtube.com##div.ytp-panel-menu > div:nth-child(4)
-youtube.com##div.ytp-panel-menu > div:nth-child(8)
+youtube.com##.ytp-menuitem-label:has-text(/^(0\.5|0\.75|1\.75)$/):upward(.ytp-menuitem)
 
 www.fandom.com##.top-ads-container
 lol.fandom.com##.top-ads-container
