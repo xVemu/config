@@ -16,6 +16,6 @@ cask postman
 cask raycast
 cask syntax-highlight
 brew vfox
-cask visual-studio-code
+cask zed
 cask warp
 brew zoxide
