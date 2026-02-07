@@ -18,7 +18,7 @@
     - https://affinity.serif.com/en-us/photo/
     - https://www.asus.com/Motherboards-Components/Motherboards/All-series/TUF-GAMING-B450-PLUS-II/HelpDesk_Download/
     - https://remotedesktop.google.com/
-    - https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/JetBrainsMonoNerdFont-Regular.ttf
+    - https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip -> only JetBrainsMonoNerdFont and JetBrainsMonoNerdFontMono
     - https://github.com/sinelaw/fresh
 8. Setup daily wallpaper:
     - import tapeta.xml into task scheduler
