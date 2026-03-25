@@ -11,8 +11,9 @@ if status is-interactive
     alias mv 'mv -iv'
 
     zoxide init fish | source
-    vfox activate fish | source
 
     set -g theme_hide_hostname yes
     set -g fish_prompt_pwd_dir_length 0
 end
+
+vfox activate fish | source
