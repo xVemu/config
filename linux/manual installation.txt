@@ -4,5 +4,9 @@ eza
 bat
 zoxide
 vfox
+yazi
 
 https://github.com/jorgebucaran/fisher
+
+echo 'EDITOR="/usr/bin/fresh"' | sudo tee -a /etc/environment
+set -gx EDITOR fresh
