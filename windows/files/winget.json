@@ -14,9 +14,6 @@
           "PackageIdentifier": "Git.Git"
         },
         {
-          "PackageIdentifier": "Mega.MEGASync"
-        },
-        {
           "PackageIdentifier": "Microsoft.WindowsTerminal"
         },
         {
@@ -68,9 +65,6 @@
           "PackageIdentifier": "ajeetdsouza.zoxide"
         },
         {
-          "PackageIdentifier": "junegunn.fzf"
-        },
-        {
           "PackageIdentifier": "version-fox.vfox"
         },
         {
@@ -96,6 +90,12 @@
         },
         {
           "PackageIdentifier": "Raycast.Raycast"
+        },
+        {
+          "PackageIdentifier": "Voidstar.FilePilot"
+        },
+        {
+          "PackageIdentifier": "AprilNEA.OpenLogi"
         }
       ],
       "SourceDetails": {
